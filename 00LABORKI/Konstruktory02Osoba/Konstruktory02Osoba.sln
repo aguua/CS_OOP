@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konstruktory02Osoba", "Konstruktory02Osoba\Konstruktory02Osoba.csproj", "{698E42CA-0EF0-41D5-8F8B-906EF6C9ED56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konstruktory02Samochod", "..\Konstruktory02Samochod\Konstruktory02Samochod\Konstruktory02Samochod.csproj", "{B4AD66CB-3B2B-490C-A33B-AF09B4B8EDAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698E42CA-0EF0-41D5-8F8B-906EF6C9ED56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698E42CA-0EF0-41D5-8F8B-906EF6C9ED56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698E42CA-0EF0-41D5-8F8B-906EF6C9ED56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698E42CA-0EF0-41D5-8F8B-906EF6C9ED56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AD66CB-3B2B-490C-A33B-AF09B4B8EDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AD66CB-3B2B-490C-A33B-AF09B4B8EDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AD66CB-3B2B-490C-A33B-AF09B4B8EDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AD66CB-3B2B-490C-A33B-AF09B4B8EDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EF2ECA5-A422-4FA9-9C2C-3349DC851C56}
+	EndGlobalSection
+EndGlobal
