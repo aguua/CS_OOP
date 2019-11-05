@@ -25,7 +25,7 @@ namespace _02Rozszerzenie {
         static void Main(string[] args) {
             double x = 10;
             Console.WriteLine($"{x} do potęgi drugiej: {x.Potega(2).Potega(2)}");
-            Console.WriteLine($"10 do potęgi minus drugiej: {(10.0).Potega(-2).Potega(-1)}");
+            Console.WriteLine($"10 do potęgi minus drugiej: {(10.0).Potega(-2)}");
             Type z = x.GetType(2);
             Console.ReadKey();
         }

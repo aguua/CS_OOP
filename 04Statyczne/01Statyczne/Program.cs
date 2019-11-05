@@ -15,7 +15,7 @@ namespace _01Statyczne {
         }
         static Pierwsza() {
             a++;
-            //b++;
+            //b++;  //niestetyczna zmienna - wymagane odwolanie do obiektu
         }
         public void wypisz() {
             Console.WriteLine("a = {0}, b = {1}", a, b);
@@ -24,6 +24,7 @@ namespace _01Statyczne {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine("Pierwsza.a = {0}", Pierwsza.a);
+            // Console.WriteLine("Pierwsza.b = {0}", Pierwsza.b); //bez stworzenia obiektu nie mozna sie odwolac do niestatycznej zmiennej
 
             Pierwsza p = new Pierwsza(2, 3);
             p.wypisz();
@@ -37,6 +38,7 @@ namespace _01Statyczne {
             q.wypisz();
             p.wypisz();
             Console.WriteLine($"Pierwsza.a = {Pierwsza.a}");
+            Console.ReadLine();
         }
     }
 }
