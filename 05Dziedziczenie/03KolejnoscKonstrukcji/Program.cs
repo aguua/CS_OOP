@@ -31,6 +31,9 @@ namespace _03KolejnoscKonstrukcji {
     class KonstrDemo {
         static void Main(string[] args) {
             new CK(5);
+            new BK();
+            new AK(8);
+            Console.ReadLine();
         }
     }
 }
