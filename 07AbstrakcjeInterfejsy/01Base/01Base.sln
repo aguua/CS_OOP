@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Base", "01Base.csproj", "{F9D4C0CD-3A86-4C3C-A1B4-D314EECF93BE}"
 EndProject
@@ -10,6 +10,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03JawnaImplementacja", "..\03JawnaImplementacja\03JawnaImplementacja.csproj", "{1C0C3EE7-69E1-4F24-BC6C-7CE1C8375796}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04WczesnaImplementacja", "..\04WczesnaImplementacja\04WczesnaImplementacja.csproj", "{9FE125BF-B7B0-40FC-9A31-48C2AF9E4E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05Lab_Figury", "..\05Lab_Figury\05Lab_Figury.csproj", "{0246B0EA-EF85-45AC-BC7A-E0559D3060E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3375C8E-9D16-4AC5-B046-5AE7AABA360B}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +40,15 @@ Global
 		{9FE125BF-B7B0-40FC-9A31-48C2AF9E4E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FE125BF-B7B0-40FC-9A31-48C2AF9E4E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FE125BF-B7B0-40FC-9A31-48C2AF9E4E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0246B0EA-EF85-45AC-BC7A-E0559D3060E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0246B0EA-EF85-45AC-BC7A-E0559D3060E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0246B0EA-EF85-45AC-BC7A-E0559D3060E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0246B0EA-EF85-45AC-BC7A-E0559D3060E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89EABC63-9F3B-49F4-9678-573D87358457}
 	EndGlobalSection
 EndGlobal

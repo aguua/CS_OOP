@@ -1,0 +1,20 @@
+interface IZucieTrway
+{
+    void ZucieTrawy();
+}
+
+class Krowa : Ssak,IZucieTrway
+{
+    public void ZucieTrawy()
+    {
+        Console.WriteLine("?ucie trawy");
+    }
+}
+
+class Owca :Ssak,IZucieTrway
+{
+    public void ZucieTrawy()
+    {
+        Console.WriteLine("?ucie trawy");
+    }
+}

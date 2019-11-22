@@ -37,6 +37,7 @@ namespace _02Interfejs {
 
             Console.WriteLine("mojeObliczenie(o1, 1): {0}", mojeObliczenie(o1, 1));
             Console.WriteLine("mojeObliczenie(o2, 1): {0}", mojeObliczenie(o2, 1));
+            Console.Read();
 
         }
     }

@@ -38,6 +38,7 @@ namespace _01Base {
 
             nb = od;
             Console.WriteLine("B: {0}, {1}", nb.Nastepny(1), nb.ZwiekszODwa(1));
+            Console.Read();
         }
     }
 }
